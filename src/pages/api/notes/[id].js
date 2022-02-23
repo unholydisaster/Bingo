@@ -1,5 +1,6 @@
-import dbConect  from "../../../utils/dbConnect";
+import dbConnect  from "../../../../utils/dbConnect"
 import Note from "../../../models/Note";
+
 
 
 dbConect();
