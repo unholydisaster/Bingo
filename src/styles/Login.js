@@ -24,7 +24,7 @@ background-color: #1D59B4;
 border: 2px solid slategrey;
 box-sizing: border-box;
 `
-export const Image=styled.h1`
+export const Images=styled.h1`
 position: absolute;
 width:auto;
 height: 21px;

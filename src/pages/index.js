@@ -20,8 +20,7 @@ export default function Home( {notes}){
          <div>
                {notes.map(article=> {
                  return(
-                 <ul>
-                   
+                 <ul key={article._id}> 
                 <Listcontainer  key={article._id}>
                       <Link href={`/${article._id}`} passHref>
                        <h2>{article.title}</h2>
@@ -31,7 +30,6 @@ export default function Home( {notes}){
                       <p>{article.description}</p> 
                       <h3>{article.author}</h3>                   
                 </Listcontainer>
-              
               </ul>
                  )
               })}

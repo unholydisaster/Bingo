@@ -1,6 +1,6 @@
 import React from "react"
 import Navbar from "../components/Navbar"
-import {Background,Createaccount,Emailinput,Enteremail,Enterpassword,Forgotpassword,Image,Imagecontainer,Loginbutton,Logindetails, Passwordinput, Userlogin} from "../styles/Login"
+import {Background,Createaccount,Emailinput,Enteremail,Enterpassword,Forgotpassword,Images,Imagecontainer,Loginbutton,Logindetails, Passwordinput, Userlogin} from "../styles/Login"
 import { Cardfooter } from "../styles/Postcard"
 
 export default function Login() {
@@ -10,9 +10,9 @@ export default function Login() {
         <Background>
             <Navbar/>
          <Imagecontainer>
-           <Image>
+           <Images>
              Image
-           </Image>
+           </Images>
            <Createaccount>
             create account  
            </Createaccount>  
