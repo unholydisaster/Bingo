@@ -39,7 +39,7 @@ p{
     left:20px;
     margin-bottom:10px;
     font-size:18px;
-    top:90px;
+    top:100px;
 }
 h3{
     position:absolute;
@@ -76,12 +76,12 @@ ${mq[0,1]}{
         left:10px;
         margin-bottom:10px;
         font-size:18px;
-        top:130px;
+        top:120px;
     }
     h3{
         position:absolute;
         left:20px;
-        top:240px;
+        top:230px;
         font-size:16px;
         color:24292F;                                                                                                                                                                                                                                                                               
     }
