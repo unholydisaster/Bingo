@@ -1,10 +1,11 @@
 import Navbar from "../components/Navbar"
-import { Gridlist, Listcontainer } from "../styles/Bloglist"
+import { Gridlist, Listcontainer ,Div} from "../styles/Bloglist"
 import React from 'react';
 import Head from "next/head";
 import Link from "next/link";
 import fetch from "isomorphic-unfetch"
 import apiUrl from "next-api-url"
+import { Footer } from "../components/Footer";
 
 
 
@@ -17,7 +18,7 @@ export default function Home( {notes}){
         </title>
       </Head>
      <Navbar/>
-         <div>
+         <Div>
                {notes.map(article=> {
                  return(
                  <ul key={article._id}> 
@@ -33,8 +34,9 @@ export default function Home( {notes}){
               </ul>
                  )
               })}
-     </div>
-  
+          
+        </Div>
+        <Footer/>
     </>
   )
 }

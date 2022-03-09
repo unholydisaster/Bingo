@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import ReactMarkdown from "react-markdown"
 
 const breakpoints=[640,768,1024,1280]
 export const mq=breakpoints.map(
@@ -193,7 +194,7 @@ ${mq[0,1]}{
   
 }
 `
-export const Reviewarea=styled.div`
+export const Reviewarea=styled(ReactMarkdown)`
 position: absolute;
 width: 880px;
 height:300px;

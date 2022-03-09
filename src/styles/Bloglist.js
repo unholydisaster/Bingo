@@ -6,6 +6,10 @@ export const mq=breakpoints.map(
 )
 
 
+export const Div=styled.div`
+padding-bottom:6rem
+`
+
 export const Listcontainer=styled.li`
 position:relative;
 width: 50%;
@@ -55,6 +59,7 @@ ${mq[0,1]}{
     left:-20px;
     font-size:20px;
     top: 100px;
+    
 
     h1{
         position:absolute;

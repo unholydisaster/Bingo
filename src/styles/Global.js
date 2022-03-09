@@ -34,13 +34,16 @@ a {
 }
 body{
   background-color:#E5E5E5;
-  height:100vh;
   font-family:Verdana;
   width:100%;
   margin:0 auto;
   padding:0;
+  min-height:100vh;
+  display:grid;
+  grid-template-rows:auto 1fr auto;
 ${mq[0,1]}{
   background-color:#E5E5E5;
+  min-height:100%;
 }
 }
 `;

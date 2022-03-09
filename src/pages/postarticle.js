@@ -62,7 +62,7 @@ export default function Postarticle (){
                      Preview
                   </Cardpreview>
                   <Writearea name="markdown" type="text"  write={write}  onChange={handleChange}/>
-                  <Reviewarea preview={preview}>
+                  <Reviewarea preview={preview} components={CodeBlock}>
                       {form.markdown}
                   </Reviewarea>
                   <Cardinerborder/>
