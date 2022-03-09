@@ -4,8 +4,6 @@ import { Author, Cardborder, Cardfooter, Cardinerborder, Cardpreview, Cardsubmit
 import {useState,useEffect} from 'react';
 import fetch from 'isomorphic-fetch'
 import {useRouter} from "next/router"
-import CodeBlock from '../components/Highlighter';
-
 
 export default function Postarticle (){
     const [form,setForm]=useState({author:'', title:'', description:'', topic:'', markdown:''});
@@ -63,7 +61,7 @@ export default function Postarticle (){
                      Preview
                   </Cardpreview>
                   <Writearea name="markdown" type="text"  write={write}  onChange={handleChange}/>
-                  <Reviewarea preview={preview} components={CodeBlock}>
+                  <Reviewarea preview={preview}>
                       {form.markdown}
                   </Reviewarea>
                   <Cardinerborder/>
