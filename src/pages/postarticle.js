@@ -4,6 +4,7 @@ import { Author, Cardborder, Cardfooter, Cardinerborder, Cardpreview, Cardsubmit
 import {useState,useEffect} from 'react';
 import fetch from 'isomorphic-fetch'
 import {useRouter} from "next/router"
+import CodeBlock from '../components/Highlighter';
 
 
 export default function Postarticle (){
