@@ -20,9 +20,7 @@ const Note=({note})=>{
               <meta property="og:type" content="website" />
               <link rel="icon" href="/favicon.ico" />
         </Head>
-        <div>
            <Navbar/>
-        </div>
         <Divbig>
         <Div1>
         <Reactmarkdown1 components={CodeBlock}>{note.markdown}</Reactmarkdown1>
