@@ -1,9 +1,7 @@
 import fetch from "isomorphic-unfetch"
 import CodeBlock from "../components/Highlighter"
-import Link from "next/link"
 import { withApiUrl } from "next-api-url";
 import Head from "next/head"
-import Navbar from "../components/Navbar";
 import { Div1, Divbig, Reactmarkdown1 } from "../styles/Blogpost";
 
 
@@ -20,7 +18,6 @@ const Note=({note})=>{
               <meta property="og:type" content="website" />
               <link rel="icon" href="/favicon.ico" />
         </Head>
-           <Navbar/>
         <Divbig>
         <Div1>
         <Reactmarkdown1 components={CodeBlock}>{note.markdown}</Reactmarkdown1>
