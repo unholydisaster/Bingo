@@ -6,7 +6,7 @@ import { Div1, Divbig, Reactmarkdown1 } from "../styles/Blogpost";
 
 
 
-const Note=({note})=>{
+export default function Note({note}){
 
     return(
         <>
@@ -39,4 +39,4 @@ export const getServerSideProps = withApiUrl(async ({query:{id}}, url) =>{
     };
   
 })
-export default Note;
+
