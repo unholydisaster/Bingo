@@ -38,6 +38,7 @@ h1{
     font-family:Maryleen FY;
 }
 ${mq[0,1]}{
+    position:fixed;
     width:100vw;
     height:${({open})=>open ? '70%':'69px'};
     transition:transform 0.3s ease-in-out;

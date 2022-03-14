@@ -31,17 +31,18 @@ ${mq[0,1]}{
 `
 export const Divbig=styled.div`
 border-radius:10px;
-position:absolute;
+position:relative;
 left:24%;
 width:52%;
 top:90px;
 background:white;
 padding-bottom:6rem;
+margin-top: 20px;
 
 ${mq[0,1]}{
     border-radius:10px;
     position:absolute;
-    top:150px;
+    top:80px;
     left:0px;
     width:100%;
     background:white;

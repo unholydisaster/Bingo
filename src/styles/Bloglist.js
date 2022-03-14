@@ -7,7 +7,11 @@ export const mq=breakpoints.map(
 
 
 export const Div=styled.div`
+padding-bottom:9rem;
+${mq[0,1]}{
 padding-bottom:6rem;
+}
+
 `
 
 export const Listcontainer=styled.li`
@@ -17,12 +21,13 @@ text-align:center;
 margin-top: 20px;
 
 
-height: 259px;
+min-height: 259px;
 left: 25%;
 top: 150px;
 list-style-type:none;
 background: #FFFFFF;
 border-radius: 10px;
+
 h1{
     position:absolute;
     left:20px;
@@ -32,9 +37,9 @@ h1{
 }
 a{
     position:absolute;
-    left:60px;
+    left:30px;
     font-size:22px;
-    top:50px;
+    top:70px;
     color:#24292F;
 }
 p{
@@ -43,7 +48,7 @@ p{
     left:20px;
     margin-bottom:10px;
     font-size:18px;
-    top:100px;
+    top:130px;
 }
 h3{
     position:absolute;
@@ -54,7 +59,7 @@ h3{
 }
 ${mq[0,1]}{
     width: 90vw;
-    height: 300px;
+    min-height: 300px;
     position:relative;
     left:-20px;
     font-size:20px;
@@ -72,7 +77,8 @@ ${mq[0,1]}{
         position:absolute;
         left:10px;
         font-size:22px;
-        top:40px;
+        top:70px;
+        weight:1000;
         color:#24292F;
     }
     p{
@@ -81,7 +87,7 @@ ${mq[0,1]}{
         left:10px;
         margin-bottom:10px;
         font-size:18px;
-        top:120px;
+        top:160px;
     }
     h3{
         position:absolute;

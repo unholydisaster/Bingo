@@ -5,6 +5,7 @@ import Head from "next/head"
 import Navbar from "../components/Navbar"
 import { Div1, Divbig, Reactmarkdown1 } from "../styles/Blogpost";
 import { Footer } from "../components/Footer";
+import { Divcontent } from "../styles/Footer";
 
 
 
@@ -12,6 +13,7 @@ export default function Note({note}){
 
     return(
         <>
+        <Divcontent>
         <Head>
               <title>{ note.title }</title>
               <meta name="description" content={`${note.title}`} />
@@ -26,7 +28,8 @@ export default function Note({note}){
         <Reactmarkdown1 components={CodeBlock}>{note.markdown}</Reactmarkdown1>
         </Div1>
         </Divbig>
-        <Footer/>
+        </Divcontent>
+
         </>
     )
 }
