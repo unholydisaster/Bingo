@@ -35,6 +35,7 @@ h1{
     color:white;
     font-size:30px;
     left:20px;
+    font-family:Maryleen FY;
 }
 ${mq[0,1]}{
     width:100vw;
