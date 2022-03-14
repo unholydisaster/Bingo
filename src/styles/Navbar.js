@@ -39,8 +39,7 @@ h1{
 }
 ${mq[0,1]}{
     width:100vw;
-    height: 60px;
-    height:${({open})=>open ? '100%':'69px'};
+    height:${({open})=>open ? '70%':'69px'};
     transition:transform 0.3s ease-in-out;
     z-index:20;
     top:0px;
