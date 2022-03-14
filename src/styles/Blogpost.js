@@ -22,6 +22,7 @@ ${mq[0,1]}{
     width:96%;
     background:white;
     border:none;
+    top:50px;
     display:block;
     transition:display 5s ease-in-out;
 
