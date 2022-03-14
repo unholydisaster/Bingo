@@ -7,7 +7,7 @@ export const mq=breakpoints.map(
 
 
 export const Div=styled.div`
-padding-bottom:6rem
+padding-bottom:6rem;
 `
 
 export const Listcontainer=styled.li`

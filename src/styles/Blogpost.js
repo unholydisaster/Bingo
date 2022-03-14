@@ -34,15 +34,18 @@ left:24%;
 width:52%;
 top:90px;
 background:white;
+padding-bottom:6rem;
 
 ${mq[0,1]}{
     border-radius:10px;
+    position:relative;
     top:100px;
     left:0px;
     width:100%;
     background:white;
-    display:'block'};
+    display:block;
     transition:display 5s ease-in-out; 
+    padding-bottom:6rem;
 
 }
 `

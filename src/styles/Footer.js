@@ -3,11 +3,12 @@ import { mq } from './BurgerStyles'
 
 export const FooterDiv=styled.div`
 ${mq[0,1]}{
+    
     position:absolute;
     width: 100%;
-    height: 50%;
+    height: 30%;
     left: 0px;
-    bottom:-100;
+    top:100;
     background: #0F1010;
     display:grid;
     grid-template-columns:repeat( 2, minmax(100px, 1fr) );
