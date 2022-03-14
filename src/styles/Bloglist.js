@@ -68,7 +68,7 @@ ${mq[0,1]}{
         top:10px;
         color:#C362A7;
     }
-    h2{
+    a{
         position:absolute;
         left:10px;
         font-size:22px;
