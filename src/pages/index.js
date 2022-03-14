@@ -24,7 +24,7 @@ export default function Home( {notes}){
                  <ul key={article._id}> 
                 <Listcontainer  key={article._id}>
                       <Link href={`/${article._id}`} passHref>
-                       <h2>{article.title}</h2>
+                       <a>{article.title}</a>
                       </Link>
                         
                       <h1>{article.topic}</h1>

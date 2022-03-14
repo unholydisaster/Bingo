@@ -30,7 +30,7 @@ h1{
     top:10px;
     color:#C362A7;
 }
-h2{
+a{
     position:absolute;
     left:60px;
     font-size:22px;
