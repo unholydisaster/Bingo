@@ -37,7 +37,7 @@ background:white;
 
 ${mq[0,1]}{
     border-radius:10px;
-    top:150px;
+    top:100px;
     left:0px;
     width:100%;
     background:white;
