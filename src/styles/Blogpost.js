@@ -10,6 +10,7 @@ export const mq=breakpoints.map(
 
 
 export const Div1=styled.div`
+
 border:none;
 position:relative;
 left:10%;
@@ -38,8 +39,8 @@ padding-bottom:6rem;
 
 ${mq[0,1]}{
     border-radius:10px;
-    position:relative;
-    top:100px;
+    position:absolute;
+    top:150px;
     left:0px;
     width:100%;
     background:white;
