@@ -2,6 +2,7 @@ import fetch from "isomorphic-unfetch"
 import CodeBlock from "../components/Highlighter"
 import { withApiUrl } from "next-api-url";
 import Head from "next/head"
+import Navbar from "../components/Navbar"
 import { Div1, Divbig, Reactmarkdown1 } from "../styles/Blogpost";
 
 
@@ -18,6 +19,9 @@ export default function Note({note}){
               <meta property="og:type" content="website" />
               <link rel="icon" href="/favicon.ico" />
         </Head>
+        <div>
+            <Navbar/>
+        </div>
         <Divbig>
         <Div1>
         <Reactmarkdown1 components={CodeBlock}>{note.markdown}</Reactmarkdown1>
