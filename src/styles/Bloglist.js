@@ -87,7 +87,7 @@ ${mq[0,1]}{
         left:10px;
         margin-bottom:10px;
         font-size:18px;
-        top:160px;
+        top:120px;
     }
     h3{
         position:absolute;
