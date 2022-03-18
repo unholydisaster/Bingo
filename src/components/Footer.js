@@ -6,7 +6,6 @@ export function Footer(){
 
     return(
         <FooterDiv>
-            <h1>BMCblog</h1>
             <FooterLeftContent>
                 <h1>Product</h1>
                 <h1>Support</h1>

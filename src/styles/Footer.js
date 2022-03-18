@@ -56,7 +56,7 @@ ${mq[0,1]}{
     height: 50%;
     left: 20px;
     background:#0F1010;
-    top:60px;
+    top:70px;
     h1{
         font-size:14px;
         color:white;
@@ -69,7 +69,7 @@ position:relative;
 width:50%;
 height: 50%;
 background:#0F1010;
-top:30px;
+top:70px;
 h1{
     font-size:18px;
     color:white;
