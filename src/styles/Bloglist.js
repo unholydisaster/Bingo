@@ -48,7 +48,7 @@ p{
     left:20px;
     margin-bottom:10px;
     font-size:18px;
-    top:130px;
+    top:110px;
 }
 h3{
     position:absolute;
