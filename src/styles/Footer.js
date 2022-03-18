@@ -18,6 +18,14 @@ background: #0F1010;
 display:grid;
 grid-template-columns:repeat( 2, minmax(100px, 1fr) );
 
+h1{
+    position:relative;
+    color:white;
+    font-size:30px;
+    left:20px;
+    font-family:Maryleen FY;
+}
+
 ${mq[0,1]}{
     
     position:absolute;
@@ -48,7 +56,7 @@ ${mq[0,1]}{
     height: 50%;
     left: 20px;
     background:#0F1010;
-    top:30px;
+    top:60px;
     h1{
         font-size:14px;
         color:white;
@@ -72,7 +80,7 @@ ${mq[0,1]}{
     width:50%;
     height: 50%;
     background:#0F1010;
-    top:30px;
+    top:60px;
     h1{
         font-size:14px;
         color:white;
