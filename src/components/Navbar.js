@@ -14,7 +14,7 @@ export default function Navbar (){
                   </h1>
               </Navinformer>
               <Navcontainer open={open}>
-                <h1>BMCblog</h1>
+                <h1>Eli's blog</h1>
                   <Linkcontainer open={open}>
                      <Link href="/" passHref>
                         <Links>Home</Links>
